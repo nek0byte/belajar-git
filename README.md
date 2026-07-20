@@ -1,16 +1,5 @@
 # Belajar Version Control dengan Git
 
-## Estimasi Waktu Belajar
-
-| Bagian | Waktu |
-| -------- | ------- |
-| Dasar (19 topik) | 3–4 jam (termasuk praktik) |
-| Lanjutan (12 topik) | 2–3 jam |
-| Latihan (3 skenario) | 1–2 jam |
-| **Total** | **6–9 jam** |
-
----
-
 ## Daftar Isi
 
 ### 01: Dasar
