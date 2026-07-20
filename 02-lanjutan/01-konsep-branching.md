@@ -1,7 +1,5 @@
 # Konsep Branching: Cabang Parallel Pengerjaan
 
-**Level:** Lanjutan
-
 ## Konsep
 
 Branch adalah fitur yang memungkinkan kamu membuat **cabang parallel** dari kode tanpa mengganggu cabang utama. Di Git, branch sebenarnya hanyalah **pointer ringan** yang menunjuk ke sebuah commit. Setiap commit baru pada branch akan menggeser pointer tersebut ke commit terbaru.

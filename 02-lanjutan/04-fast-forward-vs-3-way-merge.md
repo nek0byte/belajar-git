@@ -1,7 +1,5 @@
 # Fast-Forward vs 3-Way Merge
 
-**Level:** Lanjutan
-
 ## Konsep
 
 Saat melakukan merge, Git punya dua strategi utama:

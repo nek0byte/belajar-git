@@ -1,7 +1,5 @@
 # Latihan 3: Menyelesaikan Merge Conflict
 
-**Level:** Latihan
-
 ## Tugas
 
 Kerjakan langkah-langkah berikut. Coba selesaikan sendiri dulu sebelum membuka Solusi.

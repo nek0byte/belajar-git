@@ -1,7 +1,5 @@
 # Menyelesaikan Merge Conflict
 
-**Level:** Lanjutan
-
 ## Konsep
 
 Merge conflict terjadi ketika Git tidak bisa secara otomatis menggabungkan perubahan dari dua branch karena **keduanya mengubah baris yang sama pada file yang sama**. Git tidak tahu versi mana yang benar: kamu harus memutuskan secara manual.

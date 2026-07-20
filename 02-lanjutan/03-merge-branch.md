@@ -1,7 +1,5 @@
 # Merge Branch: Menggabungkan Cabang
 
-**Level:** Lanjutan
-
 ## Konsep
 
 Merge adalah proses menggabungkan riwayat dari dua branch menjadi satu. Biasanya kamu punya branch utama (`main`) dan branch fitur (`fitur-login`). Setelah fitur selesai, kamu ingin menggabungkan perubahan dari `fitur-login` ke `main`.

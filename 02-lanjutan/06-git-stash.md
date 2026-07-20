@@ -1,7 +1,5 @@
 # Git Stash: Menyimpan Perubahan Sementara
 
-**Level:** Lanjutan
-
 ## Konsep
 
 Saat kamu sedang mengerjakan sesuatu tetapi belum siap commit, lalu tiba-tiba perlu pindah branch untuk memperbaiki bug darurat, apa yang harus dilakukan? Commit setengah jadi tidak ideal. Solusinya: **stash**.

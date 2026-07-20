@@ -1,7 +1,5 @@
 # Membuat dan Berpindah Branch
 
-**Level:** Lanjutan
-
 ## Konsep
 
 Setelah paham bahwa branch adalah pointer ke commit, langkah selanjutnya adalah membuat dan berpindah antar branch. Git menyediakan beberapa cara untuk ini: gaya lama (`checkout`) dan gaya baru (`switch`) yang diperkenalkan di Git 2.23 untuk membuat perintah lebih intuitif.
