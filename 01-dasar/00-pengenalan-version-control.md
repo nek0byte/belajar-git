@@ -12,10 +12,6 @@ Ada tiga generasi VCS:
 2. **VCS Terpusat (Centralized)**: semua versi disimpan di server pusat. Kolaborasi jadi mungkin, tapi kalau server mati, sejarah perubahan hilang. Contoh: Subversion (SVN), CVS.
 3. **VCS Terdistribusi (Distributed)**: setiap komputer menyimpan *seluruh* salinan repository (termasuk sejarah). Tidak bergantung server pusat. Contoh: Git, Mercurial.
 
-## Perintah / Sintaks
-
-Belum ada perintah Git di bagian ini. Fokus pada pemahaman konsep dulu.
-
 ## Kesalahan Umum
 
 1. **Menyimpan file dengan nama `-final-final`**: ini tanda kamu butuh VCS. Jika kamu masih membuat folder `project-revisi-2/`, segera gunakan Git.
