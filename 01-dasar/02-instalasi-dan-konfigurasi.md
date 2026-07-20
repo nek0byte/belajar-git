@@ -50,23 +50,30 @@ git --version
 
 1. Buka terminal (atau Git Bash di Windows)
 2. Cek apakah Git sudah terinstal:
+
    ```bash
    git --version
    ```
+
 3. Jika belum terinstal, ikuti perintah instalasi sesuai OS kamu
 4. Setelah terinstal, atur identitas:
+
    ```bash
-   git config --global user.name "Budi Santoso"
-   git config --global user.email "budi@example.com"
+   git config --global user.name "Lightning McQueen"
+   git config --global user.email "mcqueen@example.com"
    ```
+
 5. Verifikasi konfigurasi:
+
    ```bash
    git config --global --list
    ```
+
    Output akan menampilkan:
+
    ```
-   user.name=Budi Santoso
-   user.email=budi@example.com
+   user.name=Lightning McQueen
+   user.email=mcqueen@example.com
    ```
 
 Tips: Gunakan email yang sama dengan akun GitHub/GitLab kamu agar commit tercantum di profil.
