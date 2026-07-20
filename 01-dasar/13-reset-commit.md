@@ -18,6 +18,8 @@ Bayangkan kamu menulis 3 halaman, lalu ingin kembali ke halaman 1:
 - `--mixed`: halaman 2-3 dikembalikan ke laci (working directory), belum siap
 - `--hard`: halaman 2-3 dibuang sepenuhnya: **tidak bisa kembali**
 
+![Diagram git reset: soft, mixed, hard](https://marklodato.github.io/visual-git-guide/reset-commit.svg.png)
+
 ## Perintah / Sintaks
 
 ```bash

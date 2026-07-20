@@ -10,6 +10,8 @@ Branch adalah fitur yang memungkinkan kamu membuat **cabang parallel** dari kode
 
 Secara default, saat pertama kali membuat repository, Git membuat branch bernama `main` (atau `master` di versi lama). Setiap commit baru yang kamu buat otomatis berada di branch aktif saat itu.
 
+![Diagram konvensi graph commit: commit, branch, HEAD](https://marklodato.github.io/visual-git-guide/conventions.svg.png)
+
 ## Perintah / Sintaks
 
 ```bash

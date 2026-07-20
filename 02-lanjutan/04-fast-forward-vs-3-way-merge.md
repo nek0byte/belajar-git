@@ -25,6 +25,10 @@ Fast-Forward:
                 D --- E ---     (fitur)
 ```
 
+![Animasi fast-forward merge](https://gitgifs.com/images/fast-forward-merge.gif)
+
+![Diagram 3-way merge](https://marklodato.github.io/visual-git-guide/merge.svg.png)
+
 ## Perintah / Sintaks
 
 ```bash

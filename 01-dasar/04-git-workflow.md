@@ -24,6 +24,8 @@ Working Directory  →  Staging Area  →  Repository (.git)
 - **Staged**: file yang sudah ditambahkan ke Staging Area, siap di-commit
 - **Committed**: perubahan sudah tersimpan di repository
 
+![Diagram alur dasar Git: working directory, staging area, repository](https://marklodato.github.io/visual-git-guide/basic-usage.svg.png)
+
 ## Perintah / Sintaks
 
 ```bash

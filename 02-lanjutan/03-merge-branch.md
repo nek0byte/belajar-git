@@ -13,6 +13,8 @@ Saat merge, Git melihat tiga titik:
 - **Branch tujuan** (misal `main`): posisi terakhir branch yang akan menerima perubahan
 - **Branch sumber** (misal `fitur-login`): posisi terakhir branch yang perubahannya akan digabung
 
+![Animasi merge commit dengan balok](https://gitgifs.com/images/merge-commit.gif)
+
 ## Perintah / Sintaks
 
 ```bash

@@ -20,6 +20,8 @@ Analogi: bayangkan kamu sedang melukis.
 
 Kalau kamu tidak suka coretan di kanvas (modified), kamu ambil kanvas baru dari foto terakhir (`git restore`). Kalau kamu tidak jadi menaruh kuas di meja (staged), kamu ambil saja kuasnya kembali: coretan di kanvas tetap ada (`git restore --staged`).
 
+![Diagram checkout: memulihkan file dari staging ke working directory](https://marklodato.github.io/visual-git-guide/checkout-files.svg.png)
+
 ## Perintah / Sintaks
 
 ```bash
