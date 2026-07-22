@@ -12,8 +12,6 @@ Saat konflik terjadi, Git:
 3. Membiarkanmu mengedit file untuk memilih versi final
 4. Setelah selesai, kamu `git add` file tersebut dan `git commit` untuk menyelesaikan merge
 
-Visualisasi interaktif: [Resolving merge conflicts - Leyaa.ai](https://leyaa.ai/codefly/learn/git/part-1/git-resolving-merge-conflicts/visualize)
-
 ## Perintah / Sintaks
 
 ```bash
