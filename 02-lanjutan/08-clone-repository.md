@@ -1,4 +1,4 @@
-# Clone Repository: Menyalin Repo dari Remote: Level: Lanjutan
+# Clone Repository: Menyalin Repo dari Remote
 
 ## Konsep
 
