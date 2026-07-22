@@ -1,4 +1,4 @@
-# Konsep Remote Repository: Level: Lanjutan
+# Konsep Remote Repository
 
 ## Konsep
 
