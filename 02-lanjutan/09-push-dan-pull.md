@@ -1,4 +1,4 @@
-# Push dan Pull: Sinkronisasi Perubahan: Level: Lanjutan
+# Push dan Pull: Sinkronisasi Perubahan
 
 ## Konsep
 
