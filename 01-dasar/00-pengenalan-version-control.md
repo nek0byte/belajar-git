@@ -1,4 +1,4 @@
-# Pengenalan Version Control System (VCS): Dasar
+# Pengenalan Version Control System (VCS)
 
 ## Konsep
 

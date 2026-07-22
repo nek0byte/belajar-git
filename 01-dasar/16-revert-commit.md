@@ -1,4 +1,4 @@
-# Revert Commit: Membatalkan Commit dengan Aman (Dasar)
+# Revert Commit: Membatalkan Commit dengan Aman
 
 ## Konsep
 
@@ -22,6 +22,7 @@ git revert --no-commit HEAD
 ## Contoh Praktik
 
 1. Cek log commit:
+
    ```bash
    git log --oneline
    # a1b2c3d (HEAD -> main) Tambah banner iklan
@@ -29,6 +30,7 @@ git revert --no-commit HEAD
    ```
 
 2. Commit terakhir (`a1b2c3d`) ternyata salah. Batalkan dengan revert:
+
    ```bash
    git revert HEAD
    ```
@@ -36,6 +38,7 @@ git revert --no-commit HEAD
 3. Git akan membuka editor untuk pesan commit revert (default: "Revert 'Tambah banner iklan'"). Simpan dan tutup.
 
 4. Lihat log lagi: ada commit baru:
+
    ```bash
    git log --oneline
    # x9y8z7w (HEAD -> main) Revert "Tambah banner iklan"

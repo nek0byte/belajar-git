@@ -1,4 +1,4 @@
-# Instalasi dan Konfigurasi Git: Dasar
+# Instalasi dan Konfigurasi Git
 
 ## Konsep
 

@@ -1,4 +1,4 @@
-# Commit dan Hash: Identitas Unik Setiap Snapshot | Dasar
+# Commit dan Hash: Identitas Unik Setiap Snapshot
 
 ## Konsep
 
@@ -27,7 +27,7 @@ git show <hash-panjang>
 Opsi penting `git log`:
 
 | Opsi | Fungsi |
-|------|--------|
+| ------ | -------- |
 | `--oneline` | Tampilkan tiap commit dalam 1 baris: hash pendek + pesan |
 | `--graph` | Tampilkan grafik branching |
 | `--all` | Tampilkan semua branch, bukan cuma branch aktif |

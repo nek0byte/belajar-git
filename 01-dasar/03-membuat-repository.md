@@ -1,4 +1,4 @@
-# Membuat Repository Git: Dasar
+# Membuat Repository Git
 
 ## Konsep
 
@@ -19,20 +19,27 @@ ls -la .git                  # lihat isi folder .git (tempat data Git)
 ## Contoh Praktik
 
 1. Buat folder proyek baru dan init repository:
+
    ```bash
    mkdir ~/belajar-git-saya
    cd ~/belajar-git-saya
    git init
    ```
+
 2. Output yang muncul:
+
    ```
    Initialized empty Git repository in /home/user/belajar-git-saya/.git/
    ```
+
 3. Lihat isi folder `.git`:
+
    ```bash
    ls -la .git
    ```
+
    Akan terlihat struktur seperti ini:
+
    ```
    HEAD
    config
@@ -42,12 +49,15 @@ ls -la .git                  # lihat isi folder .git (tempat data Git)
    objects/
    refs/
    ```
+
    File-file ini adalah "mesin" Git: jangan diedit manual.
 
 4. Cek status repository:
+
    ```bash
    git status
    ```
+
    Output: `On branch master` (atau `main`): artinya repository siap digunakan.
 
 ## Kesalahan Umum

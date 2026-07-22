@@ -1,4 +1,4 @@
-# Amend Commit: Memperbaiki Commit Terakhir | **Dasar**
+# Amend Commit: Memperbaiki Commit Terakhir
 
 ## Konsep
 
@@ -43,13 +43,13 @@ git add file1.txt
 git commit -m "manambah file1.txt"  # typo: "manambah"
 ```
 
-2. Perbaiki pesan commit yang typo:
+1. Perbaiki pesan commit yang typo:
 
 ```bash
 git commit --amend -m "menambah file1.txt"
 ```
 
-3. Tambah file yang terlupa:
+1. Tambah file yang terlupa:
 
 ```bash
 echo "file kedua" > file2.txt
@@ -59,7 +59,7 @@ git add file2.txt
 git commit --amend --no-edit
 ```
 
-4. Cek: commit terakhir sekarang berisi kedua file:
+1. Cek: commit terakhir sekarang berisi kedua file:
 
 ```bash
 git log --oneline
@@ -78,7 +78,7 @@ git show HEAD --stat
 ## Kesalahan Umum
 
 | Kesalahan | Penjelasan | Cara Perbaiki |
-|-----------|-----------|---------------|
+| ----------- | ----------- | --------------- |
 | Amend commit yang sudah di-push | Mengubah riwayat yang sudah publik: menyulitkan kolaborator | Jangan amend commit yang sudah di-push. Gunakan `git revert` atau commit baru |
 | Bingung hash berubah setelah amend | Wajar: amend menggantikan commit lama dengan yang baru | Hash pasti berubah. Jika perlu hash lama, cek `git reflog` |
 | Lupa `git add` sebelum amend | Amend hanya mengubah staging terakhir | Stage dulu dengan `git add`, baru `git commit --amend` |

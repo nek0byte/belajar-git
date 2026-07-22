@@ -1,4 +1,4 @@
-# Git Blame: Mencari Siapa yang Mengubah Baris Kode (Dasar)
+# Git Blame: Mencari Siapa yang Mengubah Baris Kode
 
 ## Konsep
 
@@ -22,6 +22,7 @@ git blame -L 5,+15 <file>
 ## Contoh Praktik
 
 1. Buat file `app.js` dan commit beberapa kali dengan penulis berbeda:
+
    ```bash
    git add app.js
    git commit -m "Initial commit"
@@ -29,11 +30,13 @@ git blame -L 5,+15 <file>
    ```
 
 2. Jalankan blame:
+
    ```bash
    git blame app.js
    ```
 
 3. Output (contoh):
+
    ```
    a1b2c3d (Budi  2025-01-15 10:00:00 +0700  1) const app = express();
    e4f5g6h (Siti  2025-01-16 14:30:00 +0700  2) app.use(logger());
@@ -41,6 +44,7 @@ git blame -L 5,+15 <file>
    ```
 
 4. Lihat hanya baris 2-3:
+
    ```bash
    git blame -L 2,3 app.js
    ```

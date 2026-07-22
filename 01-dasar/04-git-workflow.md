@@ -1,4 +1,4 @@
-# Git Workflow: Working Directory, Staging Area, Repository: Dasar
+# Git Workflow: Working Directory, Staging Area, Repository
 
 ## Konsep
 
@@ -41,42 +41,55 @@ git log --oneline            # lihat daftar commit
 (Lanjutkan dari repo yang dibuat di materi sebelumnya: `~/belajar-git-saya`)
 
 1. Buat file baru:
+
    ```bash
    echo "Hello Git" > readme.txt
    ```
+
 2. Cek status:
+
    ```bash
    git status
    ```
+
    Output: `readme.txt` berwarna merah: **untracked**.
 
 3. Stage file:
+
    ```bash
    git add readme.txt
    git status
    ```
+
    Output: `readme.txt` berwarna hijau: **staged**.
 
 4. Commit perubahan:
+
    ```bash
    git commit -m "commit pertama: menambahkan readme.txt"
    ```
+
    Output:
+
    ```
    1 file changed, 1 insertion(+)
    create mode 100644 readme.txt
    ```
 
 5. Cek log:
+
    ```bash
    git log --oneline
    ```
+
    Output:
+
    ```
    abc1234 (HEAD -> master) commit pertama: menambahkan readme.txt
    ```
 
 6. Ubah file dan ulangi siklus:
+
    ```bash
    echo "Baris kedua" >> readme.txt
    git status                # modified (merah)

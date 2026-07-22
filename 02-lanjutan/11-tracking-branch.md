@@ -1,4 +1,4 @@
-# Tracking Branch: Hubungan Branch Lokal dan Remote: Level: Lanjutan
+# Tracking Branch: Hubungan Branch Lokal dan Remote
 
 ## Konsep
 
@@ -61,7 +61,7 @@ git branch -vv
 # * main  a1b2c3d [origin/main] commit terbaru
 ```
 
-2. Buat branch baru:
+1. Buat branch baru:
 
 ```bash
 git checkout -b fitur-edit
@@ -70,21 +70,21 @@ git branch -vv
 #   main        a1b2c3d [origin/main] commit terbaru
 ```
 
-3. Push pertama dengan set upstream:
+1. Push pertama dengan set upstream:
 
 ```bash
 git push -u origin fitur-edit
 # Branch 'fitur-edit' set up to track remote branch 'fitur-edit' from 'origin'.
 ```
 
-4. Verifikasi tracking:
+1. Verifikasi tracking:
 
 ```bash
 git branch -vv
 # * fitur-edit  a1b2c3d [origin/fitur-edit] commit terbaru
 ```
 
-5. Sekarang push cukup:
+1. Sekarang push cukup:
 
 ```bash
 git push    # sudah tau tujuan → origin/fitur-edit

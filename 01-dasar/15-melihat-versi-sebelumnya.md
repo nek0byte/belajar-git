@@ -1,4 +1,4 @@
-# Melihat Versi Sebelumnya: Checkout Commit Lama (Dasar)
+# Melihat Versi Sebelumnya: Checkout Commit Lama
 
 ## Konsep
 
@@ -22,6 +22,7 @@ git checkout main
 ## Contoh Praktik
 
 1. Lihat riwayat commit:
+
    ```bash
    git log --oneline
    # a1b2c3d (HEAD -> main) Update index.html
@@ -30,6 +31,7 @@ git checkout main
    ```
 
 2. Checkout ke commit kedua (`e4f5g6h`):
+
    ```bash
    git checkout e4f5g6h
    ```
@@ -39,14 +41,17 @@ git checkout main
 3. Lihat file-file yang ada: isinya sesuai snapshot lama.
 
 4. Kembali ke branch main:
+
    ```bash
    git checkout main
    ```
 
 5. Ambil satu file dari commit lama tanpa pindah:
+
    ```bash
    git checkout e4f5g6h -- index.html
    ```
+
    File `index.html` sekarang berisi versi dari commit `e4f5g6h`.
 
 ## Kesalahan Umum

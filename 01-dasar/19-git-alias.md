@@ -1,4 +1,4 @@
-# Git Alias: Membuat Singkatan Command (Dasar)
+# Git Alias: Membuat Singkatan Command
 
 ## Konsep
 
@@ -31,22 +31,26 @@ git config --global --unset alias.co
 ## Contoh Praktik
 
 1. Buat alias untuk `checkout`:
+
    ```bash
    git config --global alias.co checkout
    ```
 
 2. Buat alias untuk log graph:
+
    ```bash
    git config --global alias.lg "log --oneline --graph --all"
    ```
 
 3. Gunakan alias:
+
    ```bash
    git co main       # sama dengan git checkout main
    git lg            # sama dengan git log --oneline --graph --all
    ```
 
 4. Cek file konfigurasi: buka `~/.gitconfig` dan lihat bagian `[alias]`:
+
    ```ini
    [alias]
        co = checkout

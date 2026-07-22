@@ -1,11 +1,11 @@
-# Fetch vs Pull: Memahami Perbedaannya: Level: Lanjutan
+# Fetch vs Pull: Memahami Perbedaannya
 
 ## Konsep
 
 `git fetch` dan `git pull` sama-sama mengambil data dari remote, tapi ada perbedaan fundamental:
 
 | Operasi | Download data | Merge ke branch lokal |
-|---------|--------------|----------------------|
+| --------- | -------------- | ---------------------- |
 | `git fetch` | Ya | Tidak |
 | `git pull` | Ya | Ya (otomatis) |
 
@@ -59,26 +59,27 @@ git clone https://github.com/username/proyek.git
 cd proyek
 ```
 
-2. Anggap ada rekan tim yang sudah push ke `main`. Kita fetch dulu:
+1. Anggap ada rekan tim yang sudah push ke `main`. Kita fetch dulu:
 
 ```bash
 git fetch origin
 ```
 
-3. Lihat apa saja yang berubah di remote:
+1. Lihat apa saja yang berubah di remote:
 
 ```bash
 git log --oneline main..origin/main
 ```
+
 Ini menampilkan commit yang ada di `origin/main` tapi belum ada di `main` lokal.
 
-4. Cek file-file yang berubah:
+1. Cek file-file yang berubah:
 
 ```bash
 git diff --stat main origin/main
 ```
 
-5. Setelah yakin, merge manual:
+1. Setelah yakin, merge manual:
 
 ```bash
 git merge origin/main

@@ -1,4 +1,4 @@
-# Menambah File ke Repository | Dasar
+# Menambah File ke Repository
 
 ## Konsep
 
@@ -40,7 +40,7 @@ git commit
 Opsi penting `git add`:
 
 | Opsi | Fungsi |
-|------|--------|
+| ------ | -------- |
 | `.` | Tambahkan semua file dari folder saat ini |
 | `-A` / `--all` | Tambahkan semua file dari seluruh repository |
 | `-p` | Tambahkan file secara interaktif per bagian (*hunk*) |

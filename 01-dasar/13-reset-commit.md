@@ -1,4 +1,4 @@
-# Reset Commit: Kembali ke Commit Sebelumnya | **Dasar**
+# Reset Commit: Kembali ke Commit Sebelumnya
 
 ## Konsep
 
@@ -60,7 +60,7 @@ git add file.txt
 git commit -m "commit 3"
 ```
 
-2. Coba `git reset --soft HEAD~1`:
+1. Coba `git reset --soft HEAD~1`:
 
 ```bash
 git reset --soft HEAD~1
@@ -69,7 +69,7 @@ git log --oneline # commit 3 sudah hilang
 git diff --staged # perubahan "baris 3" masih ada
 ```
 
-3. Coba `git reset --mixed HEAD~1` (default):
+1. Coba `git reset --mixed HEAD~1` (default):
 
 ```bash
 # Dari posisi setelah soft reset di atas
@@ -77,7 +77,7 @@ git reset HEAD~1  # sama dengan --mixed
 git status        # perubahan ada di working directory (belum di-stage)
 ```
 
-4. Coba `git reset --hard HEAD~1`: **PERHATIAN**:
+1. Coba `git reset --hard HEAD~1`: **PERHATIAN**:
 
 ```bash
 # Pastikan tidak ada perubahan yang belum di-commit!
@@ -89,7 +89,7 @@ cat file.txt      # hanya "baris 1"
 ## Kesalahan Umum
 
 | Kesalahan | Penjelasan | Cara Perbaiki |
-|-----------|-----------|---------------|
+| ----------- | ----------- | --------------- |
 | `git reset --hard` tanpa commit | Perubahan di working directory hilang permanen | Selalu `git status` dulu sebelum `--hard` |
 | Reset terlalu jauh | Tidak sengaja reset lebih dari yang diinginkan | Gunakan `git reflog` untuk menemukan commit yang hilang |
 | Mengira reset = delete permanen | Commit yang di-reset masih ada di reflog selama 30-90 hari | Cek `git reflog` dan `git reset --hard <hash>` |

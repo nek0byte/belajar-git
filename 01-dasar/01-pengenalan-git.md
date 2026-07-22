@@ -1,4 +1,4 @@
-# Pengenalan Git: Dasar
+# Pengenalan Git
 
 ## Konsep
 

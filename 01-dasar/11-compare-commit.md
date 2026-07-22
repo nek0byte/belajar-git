@@ -1,4 +1,4 @@
-# Compare Commit: Melihat Perbedaan Antar Commit | **Dasar**
+# Compare Commit: Melihat Perbedaan Antar Commit
 
 ## Konsep
 
@@ -46,7 +46,7 @@ git add file.txt
 git commit -m "commit awal"
 ```
 
-2. Ubah file tanpa staging:
+1. Ubah file tanpa staging:
 
 ```bash
 echo "baris baru" >> file.txt
@@ -55,14 +55,14 @@ git diff
 
 Output akan menunjukkan `+baris baru` (tanda `+` = baris ditambahkan).
 
-3. Stage perubahan, lalu diff staged vs commit terakhir:
+1. Stage perubahan, lalu diff staged vs commit terakhir:
 
 ```bash
 git add file.txt
 git diff --staged
 ```
 
-4. Bandingkan commit pertama dengan commit kedua:
+1. Bandingkan commit pertama dengan commit kedua:
 
 ```bash
 echo "baris ketiga" >> file.txt
@@ -82,7 +82,7 @@ git diff HEAD~1 HEAD
 ## Kesalahan Umum
 
 | Kesalahan | Penjelasan | Cara Perbaiki |
-|-----------|-----------|---------------|
+| ----------- | ----------- | --------------- |
 | `git diff` tidak menampilkan apa-apa | Semua perubahan sudah di-stage | Gunakan `git diff --staged` |
 | Output diff kosong setelah add | `git diff` hanya melihat perubahan yang belum di-stage | Gunakan `git diff --staged` untuk melihat perubahan yang sudah di-add |
 | Bingung dengan format diff | Baris `+` = tambahan, `-` = hapusan, `@@` = lokasi baris | Fokus pada baris yang dimulai dengan `+` atau `-` |

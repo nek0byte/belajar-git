@@ -1,4 +1,4 @@
-# Kolaborasi dengan GitHub: Level: Lanjutan
+# Kolaborasi dengan GitHub
 
 ## Konsep
 
@@ -19,6 +19,7 @@ Alur kolaborasi di GitHub umumnya mengikuti pola ini:
 9. **Sync**: tarik perubahan terbaru dari repo asli
 
 Bayangkan seperti **mengerjakan tugas kelompok di Google Docs**:
+
 - Fork = bikin salinan dokumen ke akun kamu sendiri
 - Clone = download salinan ke laptop
 - Branch = bikin halaman draft terpisah
@@ -108,13 +109,13 @@ cd repo-yang-di-fork
 git remote add upstream https://github.com/original-owner/repo-yang-di-fork.git
 ```
 
-3. Buat branch:
+1. Buat branch:
 
 ```bash
 git checkout -b perbaiki-dokumentasi
 ```
 
-4. Edit file, commit:
+1. Edit file, commit:
 
 ```bash
 echo "dokumentasi diperbaiki" >> README.md
@@ -122,16 +123,16 @@ git add README.md
 git commit -m "perbaiki dokumentasi"
 ```
 
-5. Push:
+1. Push:
 
 ```bash
 git push -u origin perbaiki-dokumentasi
 ```
 
-6. Buka GitHub, akan muncul banner "perbaiki-dokumentasi had recent push". Klik **Compare & pull request**.
-7. Isi judul dan deskripsi PR, klik **Create pull request**.
-8. Tunggu review dari maintainer. Jika ada komentar, perbaiki dan push lagi ke branch yang sama: PR akan ter-update otomatis.
-9. Setelah disetujui, maintainer akan merge PR.
+1. Buka GitHub, akan muncul banner "perbaiki-dokumentasi had recent push". Klik **Compare & pull request**.
+2. Isi judul dan deskripsi PR, klik **Create pull request**.
+3. Tunggu review dari maintainer. Jika ada komentar, perbaiki dan push lagi ke branch yang sama: PR akan ter-update otomatis.
+4. Setelah disetujui, maintainer akan merge PR.
 
 ### Skenario 2: Kolaborasi 2 Orang di Repo yang Sama
 

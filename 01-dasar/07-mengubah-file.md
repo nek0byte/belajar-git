@@ -1,4 +1,4 @@
-# Mengubah File yang Sudah di-Track | Dasar
+# Mengubah File yang Sudah di-Track
 
 ## Konsep
 

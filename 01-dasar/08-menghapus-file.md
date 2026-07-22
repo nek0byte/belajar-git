@@ -1,4 +1,4 @@
-# Menghapus File dari Repository | Dasar
+# Menghapus File dari Repository
 
 ## Konsep
 

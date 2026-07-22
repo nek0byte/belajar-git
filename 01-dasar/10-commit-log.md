@@ -1,4 +1,4 @@
-# Commit Log: Melihat Riwayat Commit | **Dasar**
+# Commit Log: Melihat Riwayat Commit
 
 ## Konsep
 
@@ -57,25 +57,25 @@ git add file2.txt
 git commit -m "commit ketiga: menambah file2.txt"
 ```
 
-2. Lihat semua riwayat commit:
+1. Lihat semua riwayat commit:
 
 ```bash
 git log
 ```
 
-3. Lihat dengan format satu baris:
+1. Lihat dengan format satu baris:
 
 ```bash
 git log --oneline
 ```
 
-4. Lihat detail perubahan setiap commit:
+1. Lihat detail perubahan setiap commit:
 
 ```bash
 git log -p
 ```
 
-5. Filter author (ganti dengan nama kamu):
+1. Filter author (ganti dengan nama kamu):
 
 ```bash
 git log --author="$(git config user.name)"
@@ -84,7 +84,7 @@ git log --author="$(git config user.name)"
 ## Kesalahan Umum
 
 | Kesalahan | Penjelasan | Cara Perbaiki |
-|-----------|-----------|---------------|
+| ----------- | ----------- | --------------- |
 | Log terlalu panjang | `git log` menampilkan semua commit: bisa puluhan halaman | Gunakan `git log --oneline -5` untuk membatasi jumlah |
 | Tidak ada commit muncul | Mungkin kamu lupa commit, atau ada di branch lain | Coba `git log --all` untuk lihat semua branch |
 | Bingung membaca hash | Hash commit panjang (40 karakter) | Cukup gunakan 7 karakter pertama untuk operasi Git |

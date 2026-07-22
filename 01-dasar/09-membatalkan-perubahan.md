@@ -1,4 +1,4 @@
-# Membatalkan Perubahan: Restore dan Checkout | Dasar
+# Membatalkan Perubahan: Restore dan Checkout
 
 ## Konsep
 
@@ -43,7 +43,7 @@ git checkout -- <nama-file>
 Opsi penting `git restore`:
 
 | Opsi | Fungsi |
-|------|--------|
+| ------ | -------- |
 | `--staged` / `-S` | Targetkan index (staging area) saja |
 | `--worktree` / `-W` | Targetkan working directory saja |
 | `--source=<tree>` / `-s` | Ambil konten dari commit tertentu (bukan HEAD) |

@@ -1,4 +1,4 @@
-# Rename File: Memindahkan dan Mengganti Nama File | **Dasar**
+# Rename File: Memindahkan dan Mengganti Nama File
 
 ## Konsep
 
@@ -39,7 +39,7 @@ git add catatan.txt
 git commit -m "menambah catatan.txt"
 ```
 
-2. Ganti nama file dengan `git mv`:
+1. Ganti nama file dengan `git mv`:
 
 ```bash
 git mv catatan.txt catatan-baru.txt
@@ -48,13 +48,13 @@ git status
 
 Output akan menunjukkan: `renamed: catatan.txt -> catatan-baru.txt`
 
-3. Commit rename tersebut:
+1. Commit rename tersebut:
 
 ```bash
 git commit -m "rename catatan.txt menjadi catatan-baru.txt"
 ```
 
-4. Pindahkan file ke subfolder:
+1. Pindahkan file ke subfolder:
 
 ```bash
 git mv catatan-baru.txt dokumen/
@@ -62,7 +62,7 @@ git status
 git commit -m "pindahkan file ke folder dokumen"
 ```
 
-5. Lihat riwayat: Git tetap melacak bahwa file yang sama:
+1. Lihat riwayat: Git tetap melacak bahwa file yang sama:
 
 ```bash
 git log --follow -- dokumen/catatan-baru.txt
@@ -91,7 +91,7 @@ git status  # sekarang terdeteksi sebagai renamed
 ## Kesalahan Umum
 
 | Kesalahan | Penjelasan | Cara Perbaiki |
-|-----------|-----------|---------------|
+| ----------- | ----------- | --------------- |
 | Rename manual, lalu lupa `git rm` file lama | File lama masih ter-track | Jalankan `git rm <file-lama>` |
 | Rename tapi isi file diubah total | Git mungkin tidak mendeteksi sebagai rename | Git tetap bisa melacak, tapi opsi `--follow` mungkin tidak akurat |
 | Mengira `git mv` memindahkan isi file | `git mv` hanya memindahkan/mengganti nama, isi file tetap utuh | Cek isi dengan `cat <file>` |

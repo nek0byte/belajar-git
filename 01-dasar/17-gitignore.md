@@ -1,4 +1,4 @@
-# Gitignore: Mengabaikan File yang Tidak Perlu (Dasar)
+# Gitignore: Mengabaikan File yang Tidak Perlu
 
 ## Konsep
 
@@ -35,23 +35,27 @@ node_modules/
 ## Contoh Praktik
 
 1. Buat file `.gitignore` di root repository:
+
    ```bash
    touch .gitignore
    ```
 
 2. Isi dengan pola sederhana (pakai editor teks):
+
    ```gitignore
    *.log
    .env
    ```
 
 3. Buat file `.env` dan `debug.log`:
+
    ```bash
    echo "SECRET=abc" > .env
    echo "log debug" > debug.log
    ```
 
 4. Cek status:
+
    ```bash
    git status
    ```
@@ -59,6 +63,7 @@ node_modules/
    File `.env` dan `debug.log` tidak muncul. Git mengabaikannya.
 
 5. Tambahkan dan commit `.gitignore`:
+
    ```bash
    git add .gitignore
    git commit -m "Tambah .gitignore"
